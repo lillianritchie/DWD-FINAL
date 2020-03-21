@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 10px;
+}
+/* define the font in body because 'inheritance' it
+ will pass it down to all child elements */
+body{
+    
+    padding: 30px;
+}
