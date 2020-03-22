@@ -12,13 +12,24 @@ html {
 /* define the font in body because 'inheritance' it
  will pass it down to all child elements */
 body {
-  padding: 30px;
-  font-family: Montserrat, sans-serif; }
+  padding: 30px; }
 
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
   color: #D7D8D8; }
 
+.heading-primary {
+  color: #D7D8D8;
+  text-align: right; }
+  .heading-primary--main {
+    padding-right: 25vw;
+    font-size: 4rem; }
+  .heading-primary--sub {
+    padding-right: 5vw;
+    font-size: 2rem; }
+
 .header {
-  background-color: #20558F; }
+  background-image: linear-gradient(to bottom, #20558f, rgba(32, 85, 143, 0.9), rgba(32, 85, 143, 0.6), rgba(32, 85, 143, 0));
+  height: 35vh;
+  padding-top: 6rem; }

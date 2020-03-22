@@ -3,3 +3,18 @@ body{
     line-height: 1.7;
     color: $color-grey;
 }
+
+.heading-primary{
+    color: $color-grey;
+    text-align: right;
+
+    &--main{
+        padding-right: 25vw;
+        font-size: 4rem;
+    }
+
+    &--sub{
+        padding-right: 5vw;
+        font-size: 2rem;
+    }
+}
