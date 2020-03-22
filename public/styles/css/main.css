@@ -1,0 +1,24 @@
+/* Color Theme Swatches in Hex */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 10px; }
+
+/* define the font in body because 'inheritance' it
+ will pass it down to all child elements */
+body {
+  padding: 30px;
+  font-family: Montserrat, sans-serif; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  color: #D7D8D8; }
+
+.header {
+  background-color: #20558F; }
