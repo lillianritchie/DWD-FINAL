@@ -17,19 +17,22 @@ body {
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.7;
-  color: #D7D8D8; }
+  color: #383D45; }
 
 .heading-primary {
   color: #D7D8D8;
   text-align: right; }
   .heading-primary--main {
-    padding-right: 25vw;
-    font-size: 4rem; }
+    padding-right: 20vw;
+    font-size: 5rem; }
   .heading-primary--sub {
     padding-right: 5vw;
-    font-size: 2rem; }
+    font-size: 1.6rem; }
+
+.heading-secondary {
+  font-size: 2rem; }
 
 .header {
-  background-image: linear-gradient(to bottom, #20558f, rgba(32, 85, 143, 0.9), rgba(32, 85, 143, 0.6), rgba(32, 85, 143, 0));
-  height: 35vh;
+  background-image: linear-gradient(to bottom, #20558f, #20558f, rgba(32, 85, 143, 0.7), rgba(32, 85, 143, 0));
+  height: 25vh;
   padding-top: 6rem; }

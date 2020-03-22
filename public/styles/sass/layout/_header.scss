@@ -2,9 +2,10 @@
     background-image: linear-gradient(
         to bottom,
         rgba($color-blue-medium, 1),
-        rgba($color-blue-medium, .8),
+        rgba($color-blue-medium, 1),
+        rgba($color-blue-medium, 0.7),
         rgba($color-blue-medium, 0)
         );
-    height: 35vh;
+    height: 25vh;
     padding-top: 6rem;
 }
