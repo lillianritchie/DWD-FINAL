@@ -4,9 +4,12 @@ body{
     color: $color-black;
 }
 
+//logo styling
+
 .heading-primary{
     color: $color-grey;
     text-align: right; 
+    font-family: "Nunito Sans", "Montserrat", sans-serif;
 
     &--main{
         padding-right: 20vw;
@@ -19,7 +22,33 @@ body{
     }
 }
 
+//in page header styling
 .heading-secondary {
-    font-size: 2rem;
+    font-family: "Nunito Sans", "Montserrat", sans-serif;;
+    font-size: 3rem;
+    text-transform: lowercase;
+    color: $color-blue-medium;
+    font-weight: 600;
+    margin-bottom: 2rem;
 
+}
+
+//small headers
+
+.heading-tertiary {
+    font-family: "Nunito Sans", "Montserrat", sans-serif;;
+    font-size: 2rem;
+    color: $color-blue-dark;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.text-normal {
+    color: $color-black;
+    font-size: 1.6rem;
+    &__small{
+        font-size: 1rem;
+        margin-top: 1rem;
+
+    }
 }

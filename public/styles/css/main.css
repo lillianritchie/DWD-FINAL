@@ -21,7 +21,8 @@ body {
 
 .heading-primary {
   color: #D7D8D8;
-  text-align: right; }
+  text-align: right;
+  font-family: "Nunito Sans", "Montserrat", sans-serif; }
   .heading-primary--main {
     padding-right: 20vw;
     font-size: 5rem; }
@@ -30,9 +31,62 @@ body {
     font-size: 1.6rem; }
 
 .heading-secondary {
-  font-size: 2rem; }
+  font-family: "Nunito Sans", "Montserrat", sans-serif;
+  font-size: 3rem;
+  text-transform: lowercase;
+  color: #20558F;
+  font-weight: 600;
+  margin-bottom: 2rem; }
+
+.heading-tertiary {
+  font-family: "Nunito Sans", "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #294076;
+  font-weight: 500;
+  text-transform: lowercase; }
+
+.text-normal {
+  color: #383D45;
+  font-size: 1.6rem; }
+  .text-normal__small {
+    font-size: 1rem;
+    margin-top: 1rem; }
+
+.button-normal {
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  margin-left: 12rem;
+  width: 31rem;
+  border-radius: 60px;
+  background-color: #8FBDD8;
+  color: #294076; }
 
 .header {
   background-image: linear-gradient(to bottom, #20558f, #20558f, rgba(32, 85, 143, 0.7), rgba(32, 85, 143, 0));
-  height: 25vh;
+  height: 20rem;
   padding-top: 6rem; }
+
+.mboard {
+  background: #F2F2F2;
+  margin-top: -5rem;
+  z-index: -1;
+  padding: 8rem 3rem 0 3rem; }
+  .mboard--input {
+    font-size: 1.5rem; }
+    .mboard--input__row {
+      display: flex;
+      padding: 0.5rem; }
+    .mboard--input__title {
+      text-align: right;
+      width: 10rem;
+      padding-right: 2rem;
+      text-transform: lowercase; }
+    .mboard--input__textbox {
+      font-size: 1.3rem;
+      color: #294076;
+      width: 30rem;
+      padding: .3rem 1rem;
+      border-radius: 4px; }
+    .mboard--input__commentBox {
+      height: 20rem; }

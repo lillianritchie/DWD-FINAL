@@ -1,0 +1,42 @@
+// formatting for the body of the messageboard page
+.mboard{
+    background: $color-off-white;
+    margin-top: -5rem;
+    z-index: -1;
+    padding: 8rem 3rem 0 3rem;
+   
+    
+
+    &--input{
+       // border: 2px solid black;
+        font-size: 1.5rem;
+
+        
+
+        &__row{
+            display:flex;
+            padding: 0.5rem;
+        }
+
+        &__title{
+            text-align: right;
+            width: 10rem;
+            padding-right: 2rem;
+            text-transform: lowercase;
+        }
+
+        &__textbox {
+            font-size: 1.3rem;
+            color: $color-blue-dark;
+            width: 30rem;
+            padding: .3rem 1rem;
+            border-radius: 4px;
+        }
+
+        &__commentBox{
+            height: 20rem;
+        }
+    }
+
+
+}

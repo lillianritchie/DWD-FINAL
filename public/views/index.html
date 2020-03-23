@@ -26,21 +26,50 @@
         </div>
     </header>
     <main class="mboard">
-        <section class="mboard--description">
+        <section class="mboard">
             <h2 class="heading-secondary">
                 Community Message Board
             </h2>
-            <p class="text-normal">
-                Having some trouble with your project? Looking to connect with other makers and share ideas?
-            </p>
+            <p class="text-normal"> Having some trouble with your project?</p>
+            <p class="text-normal">Looking to connect with other makers and share ideas?</p>
             <p class="text-normal">Drop a line here.</p>
-            <p class="text-small">(Your email will never be shared with your post. We’ll only ever use it to reach out
-                privately if you need project help)</p>
+            <p class="text-normal__small">(Your email will never be shared with your post.
+                I’ll only ever use it to reach out privately if you need project help)</p>
         </section>
-        <section class="mboard--input">
-            <form action="" class="mboard--input__form"></form>
+        <section class="mboard">
+            <form class="mboard--input">
+                <!-- first input row -->
+                <div class="mboard--input__row">
+                    <h3 class="heading-tertiary mboard--input__title">name</h3>
+                    <input class="mboard--input__textbox" type="text" name="input-name"
+                        placeholder="your name here"></span>
+                </div>
+
+                <!-- second input row -->
+                <div class="mboard--input__row">
+                    <h3 class="heading-tertiary mboard--input__title">location</h3>
+                    <input class="mboard--input__textbox" type="text" name="input-location"
+                        placeholder="City, State, Country"></span>
+                </div>
+
+                <!-- third input row -->
+                <div class="mboard--input__row">
+                    <h3 class="heading-tertiary mboard--input__title">email</h3>
+                    <input class="mboard--input__textbox" type="text" name="input-email"
+                        placeholder="abcd123@gmail.com"></span>
+                </div>
+                <!-- fourth input row -->
+                <div class="mboard--input__row">
+                    <h3 class="heading-tertiary mboard--input__title">Comments</h3>
+                    <input class="mboard--input__textbox mboard--input__commentBox" type="text" name="input-comment"></span>
+                </div>
+                <div class="mboard--input__row">
+                    <button class="button-normal mboard--input__submit">submit</button>
+                </div>
+
+            </form>
         </section>
-        <section class="mboard--content"></section>
+        <section class="mboard__content"></section>
     </main>
     <footer class="footer">
 
