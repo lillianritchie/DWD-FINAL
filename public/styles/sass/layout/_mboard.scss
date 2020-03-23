@@ -1,7 +1,6 @@
 // formatting for the body of the messageboard page
 .mboard{
     background: $color-off-white;
-    margin-top: -5rem;
     z-index: -1;
     padding: 5rem;
    
@@ -59,4 +58,13 @@
         padding-left: 3rem;
         width: 40rem;
     }
+
+    @media only screen and (max-width: 600px) {
+        &__row{
+            display: inline-block;
+        }
+        &__content{
+            width: 100%;
+        }
+      }
 }
