@@ -3,7 +3,7 @@
     background: $color-off-white;
     margin-top: -5rem;
     z-index: -1;
-    padding: 8rem 3rem 0 3rem;
+    padding: 5rem;
    
     
 
@@ -39,4 +39,24 @@
     }
 
 
+}
+
+.comment{
+    margin: 10rem 6rem;
+    border-bottom: 1px solid $color-blue-dark;
+    padding: 3rem;
+
+    &__row{
+        display: flex;
+    }
+    &__header{
+        width: 10rem;
+        text-align: right;
+    }
+
+    &__content{
+        text-align: left;
+        padding-left: 3rem;
+        width: 40rem;
+    }
 }
