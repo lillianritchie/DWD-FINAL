@@ -60,7 +60,15 @@ body {
   width: 31rem;
   border-radius: 60px;
   background-color: #8FBDD8;
-  color: #294076; }
+  color: #294076;
+  transition: all 0.2s;
+  box-shadow: 0 1rem 2rem rgba(41, 64, 118, 0.2); }
+  .button-normal:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 2rem 3rem rgba(56, 61, 69, 0.2); }
+  .button-normal:active {
+    box-shadow: 0 0.5rem 1rem rgba(41, 64, 118, 0.2);
+    transform: translateY(0rem); }
 
 .header {
   background-image: linear-gradient(to bottom, #20558f, #20558f, rgba(32, 85, 143, 0.7), rgba(32, 85, 143, 0));

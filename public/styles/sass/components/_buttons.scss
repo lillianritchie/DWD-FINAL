@@ -7,4 +7,16 @@
     border-radius: 60px;
     background-color: $color-blue-light;
     color: $color-blue-dark;
+    transition: all 0.2s;
+    box-shadow: 0 1rem 2rem rgba($color-blue-dark, 0.2);
+
+    &:hover{
+        transform: translateY(-0.2rem);
+        box-shadow: 0 2rem 3rem rgba($color-black,0.2);
+    }
+
+    &:active{
+        box-shadow: 0 0.5rem 1rem rgba($color-blue-dark, 0.2);
+        transform: translateY(0rem);
+    }
 }
