@@ -8,6 +8,10 @@ const bodyParser = require('body-parser');
 //port variable
 const PORT = config.PORT;
 
+//declare variables for my db and my app
+const db = require('./models/comments');
+const app = express();
+
 //mongoose connection stuff
 const MONGODB_URI = config.MONGODB_URI;
 const mongoose = require('mongoose');
@@ -19,9 +23,6 @@ mongoose.connect(MONGODB_URI, {
   .then(() => console.log("MongoDb connected"))
   .catch(err => console.log(err));
 
-//declare variables for my db and my app
-const db = require('./models/comments');
-const app = express();
 
 //set up body parser to read json
 app.use(bodyParser.urlencoded({
