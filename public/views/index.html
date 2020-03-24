@@ -38,31 +38,31 @@
                 I’ll only ever use it to reach out privately if you need project help)</p>
         </section>
         <section class="mboard">
-            <form class="mboard--input">
+            <form class="mboard--input" id="comment-form">
                 <!-- first input row -->
                 <div class="mboard--input__row">
                     <h3 class="heading-tertiary mboard--input__title">name</h3>
-                    <input class="mboard--input__textbox" type="text" name="input-name"
+                    <input class="mboard--input__textbox" type="text" id="input-name" name="name"
                         placeholder="your name here"></span>
                 </div>
 
                 <!-- second input row -->
                 <div class="mboard--input__row">
                     <h3 class="heading-tertiary mboard--input__title">location</h3>
-                    <input class="mboard--input__textbox" type="text" name="input-location"
+                    <input class="mboard--input__textbox" type="text" id="input-location" name="location"
                         placeholder="City, State, Country"></span>
                 </div>
 
                 <!-- third input row -->
                 <div class="mboard--input__row">
                     <h3 class="heading-tertiary mboard--input__title">email</h3>
-                    <input class="mboard--input__textbox" type="text" name="input-email"
+                    <input class="mboard--input__textbox" type="text" id="input-email" name="email"
                         placeholder="abcd123@gmail.com"></span>
                 </div>
                 <!-- fourth input row -->
                 <div class="mboard--input__row">
                     <h3 class="heading-tertiary mboard--input__title">Comments</h3>
-                    <input class="mboard--input__textbox mboard--input__commentBox" type="text" name="input-comment"></span>
+                    <input class="mboard--input__textbox mboard--input__commentBox" type="text" id="input-comment" name="comment"></span>
                 </div>
                 <div class="mboard--input__row">
                     <button class="button-normal mboard--input__submit">submit</button>
@@ -72,21 +72,32 @@
         </section>
         <section class="mboard mboard--content">
             <h2 class="heading-secondary">comments</h2>
-            <div class="comment">
-                <div class="comment__row">
-                    <h3 class="heading-tertiary comment__header">name</h3>
-                    <p class="comment__content">Lillian</p>
-                </div>
-                <div class="comment__row">
-                    <h3 class="heading-tertiary comment__header">location</h3>
-                    <p class="comment__content">NY, NY, USA</p>
-                </div>
-                <div class="comment__row">
-                    <h3 class="heading-tertiary comment__header">comment</h3>
-                    <p class="comment__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tellus elementum sagittis vitae et leo duis. Enim sit amet venenatis urna cursus eget nunc scelerisque. Mauris augue neque gravida in fermentum et sollicitudin. Sapien pellentesque habitant morbi tristique senectus. Elit at imperdiet dui accumsan sit. Metus vulputate eu scelerisque felis imperdiet proin. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Sit amet mauris commodo quis imperdiet massa tincidunt. Sit amet nisl purus in. Dignissim cras tincidunt lobortis feugiat vivamus at. Lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci.</p>
+            <div class="mboard" id=comment-board>
+                <div class="comment" id="comment-block">
+                    <div class="comment__row">
+                        <h3 class="heading-tertiary comment__header">name</h3>
+                        <p class="comment__content">Lillian</p>
+                    </div>
+                    <div class="comment__row">
+                        <h3 class="heading-tertiary comment__header">location</h3>
+                        <p class="comment__content">NY, NY, USA</p>
+                    </div>
+                    <div class="comment__row">
+                        <h3 class="heading-tertiary comment__header">comment</h3>
+                        <p class="comment__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut tellus elementum sagittis
+                            vitae et leo duis. Enim sit amet venenatis urna cursus eget nunc scelerisque. Mauris augue
+                            neque gravida in fermentum et sollicitudin. Sapien pellentesque habitant morbi tristique
+                            senectus. Elit at imperdiet dui accumsan sit. Metus vulputate eu scelerisque felis imperdiet
+                            proin. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Sit amet mauris
+                            commodo quis imperdiet massa tincidunt. Sit amet nisl purus in. Dignissim cras tincidunt
+                            lobortis feugiat vivamus at. Lobortis scelerisque fermentum dui faucibus in ornare quam
+                            viverra orci.</p>
+                    </div>
                 </div>
             </div>
         </section>
+        <script src="/js/client.js"></script>
     </main>
     <footer class="footer">
 
