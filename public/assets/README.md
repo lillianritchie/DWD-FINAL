@@ -7,25 +7,29 @@ This is my final project for Dynamic Web Dev.
 <!-- It is good practice to add an about or summary -->
 ## About
 
-For this assignment, we were asked to incorporate all the skills we covered in this class, using HTML, CSS, client-side javascript, server side javascript, and connecting to an API using MongoDB. 
+For this assignment, we were asked to incorporate all the skills we covered in this class, using HTML, CSS, client-side javascript, server side javascript, and connecting to an API using MongoDB.  I decided to use this project to get started designing my thesis website, and so built a comment board for users to post messages that live on that part of the site. 
 
 <!-- It is essential to describe how to set up your project -->
 ## Setup
 
-This project requires node.js, express, and mongoose.
+This project requires node.js, express, and mongoose. To run the project on your machine:
+* download all files and navigate to the project location in your terminal
+* create a .env file to store the mongo uri (you'll have to contact me for this or create your own)
+* run npm install to download any dependencies
+* run npm start to run the project on a local server.
 
 <!-- Any knowledge or tools you will need before hand -->
 ### Prerequisites
 
 1. A text editor - preferably [VS Code](https://code.visualstudio.com/)
 2. An understanding of markdown syntax. You can learn about markdown at this [Markdown Guide](https://www.markdownguide.org/getting-started/)
-3. node.js, express, and mongoose
+3. node.js, express, sass, and mongoose
 
 
 <!-- any installation needs should be defined -->
 ### Installation
 
-Youll need to install node, mongoose, and express.
+Youll need to install node, mongoose, and express. Sass shouldn't be necessary as i've already used it to compile the CSS.
 
 <!-- Write instructions on how to start working on your project -->
 ### Develop
@@ -49,6 +53,10 @@ This project is hosted on Github. Github renders markdown files.
 * [VS Code](https://code.visualstudio.com/)
 * [Github](https://github.com)
 * [Glitch](https://glitch.com)
+* [Node.js](https://nodejs.org/en/)
+* [Sass](https://sass-lang.com/)
+* [Adobe Color](https://color.adobe.com/create)
+* [figma](https://figma.com)
 
 ## Authors
 
@@ -65,27 +73,37 @@ This is README template is licensed according to [Attribution 4.0 International 
 <!-- thank and reference all the things that made your project happen -->
 ## Acknowledgements
 
-* THANK YOU to Joey Lee, Lauren Mermel, and Atharva Patil for helping me debug whenever I was stuck on this.
+* THANK YOU to Joey Lee for teaching this course and Jonas Schmedtmann on Udemy for teaching me the basics of Sass.
 ***
 ***
 ***
 
 <!-- For your assignments you might consider  -->
 # Notes, Process, and Documentation
-* This week we were given the option of starting a new database from scratch, or building from the one we started in class. I chose to start with the existing database so that I could practice my client side js, and I'm glad I did, because I ran into a lot of unexpected issues and learned a lot.
-* My initial plan was to go back and start my own database from scratch once I finished the client side portion of the project, but as is tradition, I took a lot longer to  finish this than I anticipated, and probably wont be able to start my new database until tomorrow AM (who knows?! maybe I'll still have somethign to show for class??)
+* I started this project by sketching out some basic ideas and collecting come color schemes using [adobe color](https://color.adobe.com/create) and google fonts.
+* Next, I made myself a little "styleguide" in figma:
+![logo](/public/assets/styleguide.png)
 
+* Then I worked out a basic design for what i'd like things to look like (still in figma)
+![logo](public/assets/UXdesign.png)
+
+* While working on these aspects, I was working my way through the first portion of [this udemy course on css](https://www.udemy.com/course/advanced-css-and-sass/learn/lecture/8274490#overview)
+
+* I started the project by working out all of the html and css for the page
+
+* Then, I used Joey and Cassie's guides to walk myself through setting up a new mongoDB project and cluster for this project.
+
+* I chose to only code front end for ADDING comments, because I didn't want my users to delete each other's comments or questions. However, I did code in the ability to PUT and DELETE manually from postman, so that I can moderate content myself.
 
 
 <!-- Any specific challenges or struggles documented -->
 ## Challenges & Struggles
-* One major struggle I've been dealing with since last week is keeping track of the "spaghetti" tangle that is all of the information being sent in different directions and between several files. After meeting with Joey, I decided to take his suggestion of structuring my client side code as a class. I worked off of [his example](https://glitch.com/edit/#!/joeyklee-todo-app-mongodb?path=README.md:1:0) and between restructuring my code and referring to his when something in mine broke, I think I'm FINALLY coming to terms with what information gets sent where, and why.
-* Last week was really tough for me, because I felt like I didn't understand enough of what I was coding to be able to google my own answers. This week, I felt like I made a huge step forward in being able to phrase my questions in a way where I could google them and figure out what my problems are. It didnt happen until sunday afternoon, but once it did click it felt.... GREAT.
+* COVID-19 was my primary struggle this time around. While on break, I had to move apartments and lost a lot of work time to the re-shuffle. Joey was kind enough to give me some extra time to finish up my work, so thank you again!
 
-<!-- Any questions you have -->
-## Questions
-* Can I make up any name I want for an html attribute? I found myself putting data inside my html tags with crazy attribute names and it seemed to work, but I did notice that attribute names with a dash in them didn't work when I tried to call on them in js. What's the logic behind attribute naming and what you can/can't use?
 
 <!-- References for resources and inspiration -->
 ## References
-
+ I used the following sites for reference and inspiration:
+ * [Purl Soho](https://www.purlsoho.com/)
+ * [TechnoChic](https://technochic.net/)
+ * [Ravelry](https://www.ravelry.com/)
